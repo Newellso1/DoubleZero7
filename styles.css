@@ -51,3 +51,16 @@
     bottom: 10px;
     filter: invert();
 }
+
+#slide3 {
+    background-color: black;
+    color: rgb(218, 214, 209);
+    text-transform: uppercase;
+}
+
+#slide3 .james {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    filter: invert();
+}
