@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: play, sans-serif;
 }
 
-h5 {
-    padding-top: 40px;
+#slide1 h5 {
+    padding-top: 20px;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
 }
 
 #slide1 {
@@ -26,11 +29,25 @@ h5 {
 .address li {
     list-style: none;
     padding-right: 40px;
+    font-size: 0.8em;
 }
 
 .slide1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 5rem
+    gap: 3rem
+}
+
+#slide2 {
+    background-color: black;
+    color: rgb(218, 214, 209);
+    text-transform: uppercase;
+}
+
+#slide2 .james {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    filter: invert();
 }
