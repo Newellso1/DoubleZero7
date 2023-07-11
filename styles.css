@@ -43,10 +43,11 @@
     background-color: black;
     color: rgb(218, 214, 209);
     text-transform: uppercase;
+    padding: 20px;
 }
 
 #slide2 .james {
-    position: absolute;
+    position: fixed;
     right: 10px;
     bottom: 10px;
     filter: invert();
@@ -63,4 +64,16 @@
     left: 10px;
     bottom: 10px;
     filter: invert();
+}
+
+@media  screen and (max-width: 500px) {
+    #slide2 p {
+        font-size: 13px;
+    }
+}
+
+@media  screen and (max-width: 700px) {
+    #slide2 p {
+        font-size: 13px;
+    }
 }
