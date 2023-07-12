@@ -46,11 +46,24 @@
     padding: 20px;
 }
 
+#slide2 h5 {
+    padding-top: 30px;
+}
+
+#slide2 p{
+    padding-bottom: 40px;
+}
+
 #slide2 .james {
     position: fixed;
     right: 10px;
     bottom: 10px;
     filter: invert();
+}
+
+#slide2 .video {
+    width: 500px;
+    height: 400px;
 }
 
 #slide3 {
@@ -70,10 +83,20 @@
     #slide2 p {
         font-size: 13px;
     }
+
+    #slide2 .video {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 @media  screen and (max-width: 700px) {
     #slide2 p {
         font-size: 13px;
+    }
+
+    #slide2 .video {
+        max-width: 400px;
+        max-height:300px;
     }
 }
