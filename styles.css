@@ -70,14 +70,26 @@
     background-color: black;
     color: rgb(218, 214, 209);
     text-transform: uppercase;
+    padding: 20px;
 }
 
 #slide3 .james {
-    position: absolute;
+    position: fixed;
     left: 10px;
     bottom: 10px;
     filter: invert();
 }
+
+.page3img {
+    max-height: 200px;
+    filter:drop-shadow(3px 0 5px rgba(87, 84, 84, 0.623));
+    object-fit: cover;
+}
+
+.location {
+    padding-top: 60px;
+}
+
 
 @media  screen and (max-width: 500px) {
     #slide2 p {
@@ -88,6 +100,23 @@
         width: 200px;
         height: 200px;
     }
+
+    .page3img {
+        padding: 5px;
+    }
+
+    #slide3 p{
+        font-size: 12px;
+    }
+
+    .location {
+        padding-top: 10px;
+    }
+
+    #slide3 .james {
+        display: none;
+    }
+
 }
 
 @media  screen and (max-width: 700px) {
@@ -98,5 +127,9 @@
     #slide2 .video {
         max-width: 400px;
         max-height:300px;
+    }
+
+    .page3img {
+        padding: 5px;
     }
 }
